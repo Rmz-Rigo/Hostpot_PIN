@@ -42,8 +42,7 @@ $(endif)
 <img class="logo" src="logo.png" width="320px" />
 <b class="bienvenido">_______Bienvenido..!_______</b>
 <br>
-	<em class="ingresar">Ingresa tu código</em>
-
+	<em class="ingresar">Ingrese su código</em>
 </legend>
 <input name="username" type="text" value="$(username)" placeholder="PIN" size="30" />
 <input autocomplete="off" name="password" type="hidden" label="false" placeholder="Password" size="0" />
@@ -51,16 +50,23 @@ $(endif)
 <div class='footer'>
 <p>$(if trial == 'yes')Free trial available, <a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.$(endif)</p>
 <p>$(if error)<span style="color: #FF8080; font-size: 16px">$(error)</span>$(endif)</p>
-<p>
+
 <b class="servicios">Nuestros Servicios:</b>
-</p>
+
+<div class="lista" style="font-weight:bold;">
+    <li>°Internet para casa, negocio o escuela<img src="img/internet.png" width="35px"/></li> 
+    <li>°Cámaras de Seguridad<img src="img/seguridad.png" width="35px"/></li>
+	<li>°Paneles Solares<img src="img/panel.png" width="35px"/></li>
+    <li>°Torres arriostradas<img src="img/torre.png" width="35px"/></li>
+</div>
+<br>
+<p class="contacto">Contáctenos:</p>
 <div class="lista">
-    <li>Internet para casa hogar o negocio<img src="img/internet.png" width="35px"/></li> 
-    <li>Cámaras de Seguridad<img src="img/seguridad.png" width="35px"/></li>
-	<li>Paneles Solares<img src="img/panel.png" width="35px"/></li>
-    <li>Torres arriostradas<img src="img/torre.png" width="35px"/></li>
+	<li><img src="img/whats.png" width="35px"/>9531865024 / 9531330223</li>
+	<li><img src="img/face.png" width="35px"/>Ciber Nicolás</li>
 </div>
 <p class="frase"><em>Seguimos trabajando incansablemente para brindarle los mejores servicios de la región...</em></p>
+<p style="font-size: 12px;">Copyright</p>
 </div>
 </form>
 
